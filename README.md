@@ -44,6 +44,9 @@ gplay.scores('panda').then(console.log);
 
 // do stuff with itunes
 itunes.scores('panda').then(console.log);
+
+// do stuff with itunes with country
+itunes.scores({keyword : 'panda', country : "de"}).then(console.log);
 ```
 
 The behaviour of the algorithms is the same for both stores, except where noted.
